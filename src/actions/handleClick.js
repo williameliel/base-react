@@ -1,5 +1,7 @@
+import actionTypes from '../actionTypes';
+
 const handleClick = (state) => ({
-  type: 'HANDLING_CLICK',
+  type: actionTypes.HANDLING_CLICK,
   payload: {},
 });
 

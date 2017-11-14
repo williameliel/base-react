@@ -13,7 +13,7 @@ const middleware = [
     thunk
 ];
 
-const PAGE_STATE = { data: {} };
+const PAGE_STATE = { foo: null };
 
 const store = createStore(
     reducers,
