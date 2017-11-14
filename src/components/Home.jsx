@@ -1,9 +1,9 @@
 import React from 'react';
-import AppContainer from '../containers/AppContainer';
+import FooContainer from '../containers/FooContainer';
 
 const Home = () =>{
   return(
-    <AppContainer />
+    <FooContainer />
   )
 };
 export default Home;

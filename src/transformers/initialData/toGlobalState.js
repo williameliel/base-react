@@ -1,5 +1,6 @@
 const toGlobalState = (initialData) => ({
-    data: {}
+    foo: 'bar',
+    counter: 0
 });
 
 export default toGlobalState;
