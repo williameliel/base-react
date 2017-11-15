@@ -2,11 +2,11 @@
   "name": "base-react",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:williameliel/base-react.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "jest",
-    "test:watch": "npm run test -- --watch",
+    "test:watch": "npm run test -- --watch"
   },
   "jest": {
     "setupFiles": [
